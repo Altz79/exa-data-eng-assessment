@@ -1,0 +1,12 @@
+name: jupyter-actions
+channels:
+    - conda-forge
+dependencies:
+  - jupyter=1.0
+  - pandas
+  - glob
+  - mysql.connector
+  - sqlalchemy
+  - numpy
+  - fastparquet
+  - pytest
