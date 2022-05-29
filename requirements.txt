@@ -1,0 +1,7 @@
+  jupyter=1.0
+  pandas
+  mysql-connector-python
+  sqlalchemy
+  numpy
+  fastparquet
+  pytest
