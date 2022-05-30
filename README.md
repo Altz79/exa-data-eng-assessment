@@ -19,6 +19,8 @@ Output saved:
 
 ![MySQL Workbench](/assets/images/msql_workbench.png)
 
+A database dump is on "data_output/mysql/patient_patient_profile.sql".
+
 ###### Testing
 Done with GitHub Actions.
 
