@@ -5,15 +5,18 @@
 ###### Output
 Data from json files converted into tabular format. For members of analytics team two options will be possible:
 - take a look at all the data (138 columns). Some of the columns still have nested structures that could be unpacked later, depending on the specific need. But this option will simplify the understanding of what we currently have and can extract from files in general.
+
 ![all_data](/assets/images/all_data.png)
 
 - “patient_profile” table as an example of more structured data that we can have from each of “resourceTypes” that are present in the data.
+
 ![patient_profile](/assets/images/patient_profile.png)
 
 Output saved:
 - in CSV and Parquet formats: all_data + “Patient_profile” example
 
 - “Patient_profile” created as MySQL database on AWS. Available for queries from any tool like MySQL Workbench
+
 ![MySQL Workbench](/assets/images/msql_workbench.png)
 
 ###### Testing
